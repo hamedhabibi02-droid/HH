@@ -1,8 +1,6 @@
 {
   "version": 2,
 
-  "_comment": "this is a harmless comment-like field",
-
   "name": "vercel-xhttp-relay",
 
   "functions": {
