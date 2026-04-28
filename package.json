@@ -1,8 +1,6 @@
 {
   "name": "vercel-xhttp-relay",
 
-  "_comment": "this field is ignored by npm, just a placeholder comment",
-
   "version": "1.1.0",
 
   "_meta": {
