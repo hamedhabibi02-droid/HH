@@ -1,0 +1,20 @@
+{
+  "name": "vercel-xhttp-relay",
+
+  "_comment": "this field is ignored by npm, just a placeholder comment",
+
+  "version": "1.1.0",
+
+  "_meta": {
+    "note": "no functional impact",
+    "createdFor": "cosmetic modification only"
+  },
+
+  "description": "Serverless XHTTP relay for Xray/V2Ray on Vercel (Node.js runtime, 128MB memory)",
+
+  "private": true,
+
+  "_debug": false,
+
+  "license": "MIT"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+
+  "_comment": "this is a harmless comment-like field",
+
+  "name": "vercel-xhttp-relay",
+
+  "functions": {
+    "api/index.js": {
+      "memory": 128,
+      "maxDuration": 60,
+
+      "_note": "limits remain unchanged"
+    }
+  },
+
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index",
+
+      "_info": "all traffic routed to api handler"
+    }
+  ],
+
+  "trailingSlash": false,
+
+  "_meta": {
+    "env": "production",
+    "purpose": "cosmetic only"
+  }
+}
